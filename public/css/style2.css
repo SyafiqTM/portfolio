@@ -186,6 +186,7 @@ a.article, a.article:hover {
   height: 150px;
   background-color: black;
   color: white;
+  padding-top: 0px !important;
 }
 
 .list-inline {
@@ -232,3 +233,4 @@ a.article, a.article:hover {
 .fa-blogger:hover {
   color: #007bff;
 }
+

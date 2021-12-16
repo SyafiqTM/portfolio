@@ -30,24 +30,43 @@
     </div>
 </section>
 <!-- header -->
-<section class="bg-home rtl-personal-hero bg-light d-flex align-items-center" style="background:url({{asset('image/personal/bg01.png')}}) center center" id="home">
+<section class="bg-home rtl-personal-hero bg-light d-flex align-items-center" style="background:url({{asset('image/coding.jpg')}})
+background-size: cover;
+height: 800px;
+text-align: center;
+overflow: hidden;" id="home">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8 col-md-9">
                 <div class="title-heading mt-4">
-                    <h1 class="display-3 fw-bold mb-3">Here I'm <br> <span class="text-primary typewrite" data-period="2000" data-type='[ "Calvin Carlo", "UI/UX Designer", "Web Developer" ]'> <span class="wrap"></span> </span> </h1>
-                    <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
-                    <div class="mt-4 pt-2">
-                        <a href="#portfolio" class="btn btn-primary mt-2 me-2"><i class="uil uil-camera"></i> View Portfolio</a>
-                        <a href="#contact" class="btn btn-outline-primary mt-2"><i class="uil uil-cloud-download"></i> Hire Me</a>
+                    <h1 class="text-start display-3 fw-bold mb-3">Hello! I am<br> <span class="text-primary typewrite" data-period="2000" data-type='[ "Mohammad Syafiq", "Full Stack Developer"]'> <span class="wrap"></span> </span> </h1>
+                    <p class="text-start para-desc text-muted">A humble person that writes code on daily basis, experience working with Startup & SME companies. Cheerful person and committed with his works.</p>
+                    <div class="text-start mt-4 pt-2">
+                        <a data-scroll href="#about" class="btn btn-primary mt-2 me-2"><i class="uil uil-camera"></i> View Portfolio</a>
+                        {{-- <a href="#contact" class="btn btn-outline-primary mt-2"><i class="uil uil-cloud-download"></i> Hire Me</a> --}}
                     </div>
                 </div>
             </div><!--end col-->
+            <div class="col-4 col-md-3">
+                <div class="profile-circle animated fadeInUp" style="background-color: rgba(145,169,216,.2); width:300px; height:300px;">
+                    <img src="{{ asset('image/profile_1.jpg')}}" class="rounded-circle">
+                </div>
+            </div>
         </div><!--end row-->
+
     </div><!--end container-->
+    <div class="downArrow bounce center" style="
+    position: absolute;
+    bottom: 0px;
+    margin: 0 auto;
+    width: 100%;">
+        <a data-scroll href="#about">
+            <img width="40" height="40" alt="" src="{{ asset('image/black-arrow.png')}}" />
+        </a>
+    </div>
 </section><!--end section-->
 
-<section class="header" id="home">
+{{-- <section class="header" id="home">
     <div class="text-vertical-center">
     <div class="profile-circle animated fadeInUp" style="background-color: rgba(145,169,216,.2); width:200px; height:200px;">
         <img src="{{ asset('image/profile_1.jpg')}}" class="profile-circle" style="height:200px; width:200px;">
@@ -67,7 +86,7 @@
         <img width="40" height="40" alt="" src="{{ asset('image/white-arrow.png')}}" />
     </a>
     </div>
-</section>
+</section> --}}
 
 <!-- Portfolio -->
 <section class="aboutfolio" id="about">
@@ -77,7 +96,7 @@
         <!-- <h2>Profile</h2>-->
 
         <h2 class="section-subheading" style="">Profile</h2>
-        <hr style="text-align:center; width:10%; border-width: 1px; border-color:black; margin-bottom: 50px;">
+        {{-- <hr style="text-align:center; width:10%; border-width: 1px; border-color:black; margin-bottom: 50px;"> --}}
       </div>
     </div>
 
@@ -99,8 +118,9 @@
             margin-right:auto;
             font-size: 16px;
             line-height: 150%;">
-            Syafiq is a self motivated person and passionate in IT world especially in writing line of codes. He is an undergraduate student of Bachelor of Information Technology (Hons.) from UiTM Shah Alam with 4 year experience of Web/Backend and Mobile Application developer. He is the oldest son from 6 siblings that lives in Puchong, Malaysia.
-            <br><br>During his Degree, he becamed as a participative President of Information Technology Club handling club events (Indoor &amp; Outdoor) activities and student exchange program from Kazakhstan in collaboration between universities. He also join few competitions held in UiTM such as Competitive Programming &amp; Multimedia (CPROM), FSKM e-Sport Championship and Invention, Innovation &amp; Design Exposition (IIDEX) 2017 Competition.
+            Syafiq is a self motivated person and passionate in IT world especially in writing line of codes. He is an undergraduate student of Bachelor of Information Technology (Hons.) from UiTM Shah Alam with 4 year experience of Web/Backend and
+            Mobile Development. He is the oldest son from 6 siblings that lives in Puchong, Malaysia.
+            <br><br>During his Degree, he participated as President of Information Technology Club, actively handling club events (Indoor &amp; Outdoor) activities and exchange student program (Malaysia-Kazakhstan) in campus. He also join few competitions held in UiTM such as Competitive Programming &amp; Multimedia (CPROM), FSKM e-Sport Championship and Invention, Innovation &amp; Design Exposition (IIDEX) 2017 Competition.
             <br><br>Now, he is working as Full-Time Full Stack Developer in Digital Venus Sdn Bhd providing top notch quality software developments to company clients. Syafiq also had experience in Telekom Malaysia Berhad as Service Engineering Server, Storage  &amp; Cloud Computing staff which exposed him to prior knowledge of Technical Deployment and Hardware Configuration.
             <br><br>While he believes that outside competition of job employment is constantly challenging, he turns it into an opportunity by working as a freelance in Software Development. His passion towards programming did not stop him from learning something new and exploring opportunities by interacting and collaborating with other developers around the world.
             <br><br>
