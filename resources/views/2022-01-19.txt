@@ -1,0 +1,29 @@
+
+DateTime: 2022-01-19 04:09:42
+Checking (1)...
+Request Type: POST
+Status Requery: 00
+Callback : Backend Response
+Response : MerchantCode=M08066,PaymentId=6,RefNo=WS000128,Amount=1.00,Currency=MYR,Remark=syafiq.zahir%40yahoo.com,TransId=T101004447022,AuthCode=2201191209060869,Status=1,ErrDesc=,Signature=440099faa551895846c58c4048657ac24265eb8c8bf0e1e6adfffded6341b273,TokenId=,SubscriptionNo=,RecurringRefno=,S_bankname=MB2U0227,S_country=,CCNo=,CCName=MOHAMMAD+SYAFIQ+BIN+MOHAM,BankMID=EX00005182,TranDate=2022-01-19,Xfield1=,Xfield2=,Xfield3=,Xfield4=,Xfield5=,ActionType=,method=POST
+Checking (2)...
+Reference No. exist? = yes
+Response Status is 1? = yes
+Requery Result is 00? = yes
+Cart Payment Updated? = yes
+Customer Session Exist? = No
+Email Confirmation Sent? = Yes
+Email Sent To? = syafiq.zahir@yahoo.com
+
+End checking...
+
+DateTime: 2022-01-19 04:30:39
+Checking (1)...
+Request Type: POST
+Status Requery: 
+Callback : Backend Response
+Response : MerchantCode=M08066,PaymentId=6,RefNo=WS+22%2F000130,Amount=1.00,Currency=MYR,Remark=syafiq.zahir%40yahoo.com,TransId=T101007489622,AuthCode=2201191229560855,Status=1,ErrDesc=,Signature=9d29f380651a79987985cd9e0fea83284b663eed4413624ea7a92ae81356214a,TokenId=,SubscriptionNo=,RecurringRefno=,S_bankname=MB2U0227,S_country=,CCNo=,CCName=MOHAMMAD+SYAFIQ+BIN+MOHAM,BankMID=EX00005182,TranDate=2022-01-19,Xfield1=,Xfield2=,Xfield3=,Xfield4=,Xfield5=,ActionType=,method=POST
+Checking (2)...
+Reference No. exist? = yes
+Response Status is 1? = yes
+Requery Result is 00? = no
+End checking...

@@ -30,7 +30,7 @@
                       </a>
                     </li>
                   </ul>
-                  <p style="text-align:center"><font color="white">© sys-expert.com. All Rights Reserved.</font></p>
+                  <p style="text-align:center"><font color="white">&copy; 2021. syafiq-zahir.com. All Rights Reserved.</font></p>
                 </footer>
 
             </div>

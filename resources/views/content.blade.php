@@ -483,6 +483,19 @@ overflow: hidden;" id="home">
            </a>
           </div>
         </div>
+        <div class="row" style="margin-top:10px;">
+          <div class="col-sm-1"><i class="fa fa-github-square" style="color:black"></i></div>
+          <div class="col-md-11" style="padding-left:10px;" class="linkedin-contact">
+            <a href="https://github.com/SyafiqTM" target="_blank">
+              <span class="linkedin-contact" style="
+                  text-align: justify;
+                  font-size: 16px;
+                  line-height: 150%;">
+                  Syafiq's Github
+              </span>
+           </a>
+          </div>
+        </div>
 
       </div>
          <div class="col-md-6">
